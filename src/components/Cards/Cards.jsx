@@ -14,19 +14,19 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
       styling: styles.infected,
       name: "Infected",
       value: confirmed.value,
-      description: "Number of active cases of COVID-19",
+      description: "Number of active cases of Covid-19",
     },
     {
       styling: styles.recovered,
       name: "Recovered",
       value: recovered.value,
-      description: "Number of recoveries from COVID-19",
+      description: "Number of recoveries from Covid-19",
     },
     {
       styling: styles.deaths,
       name: "Deaths",
       value: deaths.value,
-      description: "Number of deaths caused by COVID-19",
+      description: "Number of deaths caused by Covid-19",
     },
   ];
 
